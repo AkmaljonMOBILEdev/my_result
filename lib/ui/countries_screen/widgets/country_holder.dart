@@ -3,8 +3,8 @@ import 'package:exam_repo_n8/utils/sizedbox.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class CountryHolder extends StatelessWidget {
-  const CountryHolder({super.key, required this.countryModel});
+class CountryItemHolder extends StatelessWidget {
+  const CountryItemHolder({super.key, required this.countryModel});
 
   final CountryModel countryModel;
 

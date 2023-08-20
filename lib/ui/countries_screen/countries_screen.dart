@@ -21,7 +21,7 @@ class CountriesScreen extends StatelessWidget {
           ListView(
             children: List.generate(countries.length, (index) {
               CountryModel country = countries[index];
-              return CountryHolder(countryModel: country);
+              return CountryItemHolder(countryModel: country);
             }),
           ),
           Visibility(
